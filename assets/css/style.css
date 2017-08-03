@@ -1,0 +1,228 @@
+body
+	{font-family:segoe ui light;
+	}
+
+header
+	{display:inline-block;
+	border-bottom:2px solid #FF6D21;
+	width:100%;
+	background-color:#ffffff;
+	position:relative;
+	top:0;
+	}
+
+h1 
+	{color:white;
+	padding:20px;
+	background-color:#4aaaa5;
+	width:120px;
+	height:30px;
+	float:left;
+	text-align:center;
+	vertical-align:middle;
+	margin-left:10%;
+	font-size:22px;
+	}
+
+ul 
+	{float:right;
+	top:0;
+	margin-right:10%;
+	}
+
+li 
+	{display:inline-block;
+	padding:20px 0px;
+	text-decoration:none;
+	color:#777777;
+	margin:5px 0;
+	}
+
+li a 
+	{padding:20px;
+	text-decoration:none;
+	color:#777777;
+	margin:0;
+	}
+
+li a:hover 
+	{background-color: #4aaaa5;
+    text-decoration: none;
+    padding:10px 20px;
+    color:#ffffff;
+    margin:0;
+	}
+
+h2 
+	{color:#4aaaa5;
+	padding:0 20px 20px 0px;
+	border-bottom:2px solid #FF6D21;
+	margin-bottom:20px;
+	font-size:20px;
+	}
+
+#pic 
+	{float:left;
+	margin: 0 20px 20px 0;
+	width:50%;
+	max-width:400px;
+	min-width:240px;
+	size:contain;
+	}
+
+.AboutMe 
+	{word-wrap;
+	font-size: 14px;
+	}
+
+#AboutMe, #contact, #portfolio 
+	{background-color:#ffffff;
+	padding:20px;
+	margin:20px 20px 20px 10%;
+	width: 50%;
+	float:left;
+	min-width: 240px;
+	max-width:650px;
+	}
+
+#portfolio 
+	{min-width: 220px;
+	padding:20px 0 0 20px;
+	max-width:660px;
+	}
+
+#connect 
+	{background-color:#ffffff;
+	padding:20px;
+	margin:20px 10% 20px 0;
+	float: right;
+
+	}
+
+h3 
+	{color:#4aaaa5;
+	padding:0 20px 20px 0px;
+	border-bottom:2px solid #FF6D21;
+	margin-bottom:20px;
+	font-size:18px;
+	}
+
+#name, #email, #message 
+	{border:1px solid #777777
+	padding:20px;
+	font-family:segoe ui;
+	color:#777777;
+	width: 100%;
+	}
+
+#submit_button 
+	{padding:15px 40px;
+	background-color:#4aaaa5;
+	color:#ffffff;
+	border:1px solid #ffffff
+	}
+
+#submit_button:hover 
+	{padding:15px 40px;
+	background-color:#999999;
+	color:#ffffff;
+	border:1px solid #999999;
+	}
+
+.portimage 
+	{float:left;	
+	margin:0 20px 20px 0;
+	position:relative;
+	}
+
+.imagetitle 
+	{padding:15px 20px;
+	text-align:center;
+	color:#ffffff;
+	background-color:#4aaaa5;
+	position:absolute;
+	top:150px;
+	width:160px;
+	}
+
+footer 
+	{background-color: #888888;
+	padding:20px 0;
+	width:100%;
+	font-size:12px;
+	color:white;
+	text-align:center;
+	clear:both;
+	float:left;
+	position:relative;
+	bottom:-150px;
+	border-top: 5px solid #4aaaa5;
+	}
+
+@media only screen and (max-width: 980px) 
+	{
+	#AboutMe, #contact, #portfolio 
+	{background-color:#ffffff;
+	padding:20px;
+	margin:20px 10px 20px 10%;
+	width: 50%;
+	float:left;
+	max-width:500px;
+	}
+	#connect 
+	{background-color:#ffffff;
+	padding:10px;
+	margin:20px 10% 20px 0;
+	float: right;
+	}
+	}
+
+@media only screen and (max-width: 768px) 
+	{
+	#AboutMe, #contact, #portfolio {
+	background-color:#ffffff;
+	padding:20px;
+	margin:20px 10% 20px 10%;
+	width: 80%;
+	float:left;
+	min-width: 240px;
+	max-width:650px;
+	
+	}
+
+	#connect {
+	background-color:#ffffff;
+	padding:20px;
+	margin:20px 10% 20px 10%;
+	float: left;
+	width: 80%;
+	}
+	}
+
+	@media only screen and (max-width: 640px) 
+	{
+	#AboutMe, #contact, #portfolio 
+	{background-color:#ffffff;
+	padding:20px;
+	margin:20px 20px 20px 10%;
+	
+	float:left;
+	max-width:400px;
+	}
+
+	#connect {
+	background-color:#ffffff;
+	padding:20px;
+	margin:20px 10% 20px 10%;
+	float: left;
+	max-width: 400px;
+	}
+	#pic 
+	{float:left;
+	margin: 0 20px 20px 0;
+	width:100%;
+	max-width:400px;
+	min-width:240px;
+	size:contain;
+	}
+	}
